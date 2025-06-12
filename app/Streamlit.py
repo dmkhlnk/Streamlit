@@ -10,7 +10,7 @@ import numpy as np
 # 'Minearal_mining_adj', 'Добыча полезных ископаемых', 'Education_adj', 'Образование'
 # с числовыми данными.
 try:
-    salary = pd.read_excel('/Users/d.mkhlnk/Downloads/real_salary.xlsx')
+    salary = pd.read_excel('real_salary.xlsx')
     # Проверка на наличие ключевых колонок
     required_cols = ['year', 'Construction_adj', 'Строительство',
                      'Minearal_mining_adj', 'Добыча полезных ископаемых',
